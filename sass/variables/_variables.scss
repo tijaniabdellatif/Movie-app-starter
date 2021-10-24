@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+$fontFamily : 'Mukta', sans-serif;
+$baseFontSize: 62.5%;
+
+
+/* Text color */
+$primary-textColor : hsl(210,14%,89%);
+$secondary-textColor : hsl(210,14%,83%);
+$dark-textColor : hsl(210,11%,15%);
+
+/*Background Colors*/
+$bgColor:#1A1A2E;
+
+/*info colors*/
+$secondaryColor:#F78812;
+$dangerColor:#FF0000;
+$successColor: hsl(125, 71%, 66%);
+
+/*label colors*/
+$clr-red-dark: hsl(360, 67%, 44%);
+$clr-red-light: hsl(360, 71%, 66%);
+$clr-green-dark: hsl(125, 67%, 44%);
+$clr-green-light: hsl(125, 71%, 66%);
+
+/*Base colors*/
+$blackColor:rgba(0,0,0,0.7);
+$white : #fff;
+
+/*Border colors*/
+$borderColor : #EDC531;
+$formColor : #926C15;
+
+$transition: all 0.3s linear;
+$spacing: 0.1rem;
+$radius: 0.25rem;
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px #926C15;

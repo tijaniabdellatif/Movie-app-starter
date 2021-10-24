@@ -1,0 +1,22 @@
+@mixin button {
+
+  text-transform: uppercase;
+  background: transparent;
+  color: $secondary-textColor;
+  padding: 1rem 0.80rem;
+  letter-spacing: $spacing;
+  transition: $transition;
+  font-size: 1.2rem;
+  border: 2px solid $borderColor;
+  cursor: pointer;
+  box-shadow: $dark-shadow;
+  border-radius: 30px;
+
+  &:hover{
+  
+    color:$dark-textColor;
+    background-color: $formColor;
+
+  }
+    
+}
